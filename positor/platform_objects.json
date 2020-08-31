@@ -1,0 +1,26 @@
+{
+    "files": [
+      "platforms/concrete.vox",
+      "platforms/modern.vox"
+    ],
+    "operations": [
+      {
+        "name": "_empty",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_sign",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "objects/sign.vox"
+      }, 
+      {
+        "name": "_benches",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "objects/benches.vox"
+      }
+    ]
+}

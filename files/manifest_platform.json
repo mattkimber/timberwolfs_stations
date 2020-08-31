@@ -19,21 +19,21 @@
   "sprites": [
     {
       "angle": 45,
-      "width": 64
+      "width": 64,
+      "flip": true
     },
     {
       "angle": 45,
-      "width": 64,
-      "flip": true
-    },
-    {
-      "angle": 135,
       "width": 64
     },
     {
       "angle": 135,
       "width": 64,
       "flip": true
+    },
+    {
+      "angle": 135,
+      "width": 64
     }
   ]
 }
