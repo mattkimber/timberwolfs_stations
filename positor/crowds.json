@@ -41,6 +41,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/crowds/5.vox"
+      }, 
+      {
+        "name": "_6",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/crowds/6.vox"
       }
     ]
 }
