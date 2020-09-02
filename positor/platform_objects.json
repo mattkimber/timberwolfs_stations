@@ -1,26 +1,29 @@
 {
     "files": [
-      "platforms/concrete.vox",
-      "platforms/modern.vox"
+      "concrete.vox",
+      "modern.vox"
     ],
     "operations": [
       {
         "name": "_empty",
-        "type": "produce_empty"
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/bare.vox"
       }, 
       {
         "name": "_sign",
         "type": "repeat",
         "truncate": true,
         "n": 1,        
-        "file": "objects/sign.vox"
+        "file": "../../voxels/objects/sign.vox"
       }, 
       {
         "name": "_benches",
         "type": "repeat",
         "truncate": true,
         "n": 1,        
-        "file": "objects/benches.vox"
+        "file": "../../voxels/objects/benches.vox"
       }
     ]
 }

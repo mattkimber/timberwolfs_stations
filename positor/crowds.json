@@ -1,6 +1,7 @@
 {
     "files": [
-      "*.vox"
+      "*.vox",
+      "../../voxels/platforms/*_ramp_*.vox"
     ],
     "operations": [
       {
@@ -11,42 +12,42 @@
         "name": "_1",
         "type": "repeat",
         "truncate": true,
-        "n": 1,        
+        "n": 0,        
         "file": "../../voxels/crowds/1.vox"
       }, 
       {
         "name": "_2",
         "type": "repeat",
         "truncate": true,
-        "n": 1,        
+        "n": 0,        
         "file": "../../voxels/crowds/2.vox"
       }, 
       {
         "name": "_3",
         "type": "repeat",
         "truncate": true,
-        "n": 1,        
+        "n": 0,        
         "file": "../../voxels/crowds/3.vox"
       }, 
       {
         "name": "_4",
         "type": "repeat",
         "truncate": true,
-        "n": 1,        
+        "n": 0,        
         "file": "../../voxels/crowds/4.vox"
       }, 
       {
         "name": "_5",
         "type": "repeat",
         "truncate": true,
-        "n": 1,        
+        "n": 0,        
         "file": "../../voxels/crowds/5.vox"
       }, 
       {
         "name": "_6",
         "type": "repeat",
         "truncate": true,
-        "n": 1,        
+        "n": 0,        
         "file": "../../voxels/crowds/6.vox"
       }
     ]

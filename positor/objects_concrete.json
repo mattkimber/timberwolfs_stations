@@ -1,0 +1,21 @@
+{
+    "files": [
+      "platforms/concrete.vox"
+    ],
+    "operations": [
+      {
+        "name": "_bare",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "objects/bare.vox"
+      }, 
+      {
+        "name": "",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "objects/lamps_concrete.vox"
+      }
+    ]
+}

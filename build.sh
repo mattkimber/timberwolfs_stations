@@ -3,15 +3,25 @@
 # Create directories
 mkdir -p intermediate
 mkdir -p intermediate/platforms_bare
+mkdir -p intermediate/platforms_objects
 mkdir -p intermediate/platforms
 
-# Composite objects
-echo "Compositing platform sprites"
-../cargopositor/cargopositor.exe -o intermediate/platforms_bare -v voxels -t positor/platform_objects.json
+
+# Basic objects (lamps/shelters)
+# one per platform type
+echo "Compositing platform sprites (lamps/shelters)"
+../cargopositor/cargopositor.exe -o intermediate/platforms_bare -v voxels -t positor/objects_concrete.json
+../cargopositor/cargopositor.exe -o intermediate/platforms_bare -v voxels -t positor/objects_modern.json
+
+
+# Decor objects (benches/signs)
+echo "Compositing platform sprites (base objects)"
+../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects.json
+
 
 # Crowds
 echo "Compositing platform sprites (with crowds)"
-../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_bare -t positor/crowds.json
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_objects -t positor/crowds.json
 
 
 # Render sprites
