@@ -17,6 +17,7 @@ echo "Compositing platform sprites (lamps/shelters)"
 # Decor objects (benches/signs)
 echo "Compositing platform sprites (base objects)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects.json
+../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects_bare.json
 
 
 # Crowds

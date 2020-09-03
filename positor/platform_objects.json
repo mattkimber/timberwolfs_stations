@@ -24,6 +24,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/objects/benches.vox"
+      }, 
+      {
+        "name": "_shelter_traditional",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/shelter_traditional.vox"
       }
     ]
 }

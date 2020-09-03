@@ -1,0 +1,15 @@
+{
+    "files": [
+      "concrete_bare.vox",
+      "modern_bare.vox"
+    ],
+    "operations": [
+      {
+        "name": "_shelter_traditional",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/shelter_traditional.vox"
+      }
+    ]
+}
