@@ -30,6 +30,11 @@ echo "Rendering platforms"
 ../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u intermediate/platforms/*.vox
 echo ""
 
+echo "Rendering bridges"
+../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u voxels/bridges/*.vox
+echo ""
+
+
 # Create NFO
 echo "Creating NFO"
 ../stationer/stationer.exe > test.nfo

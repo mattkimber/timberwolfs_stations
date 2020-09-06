@@ -10,6 +10,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/objects/shelter_traditional.vox"
+      }, 
+      {
+        "name": "_footbridge",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/footbridge_stairs.vox"
       }
     ]
 }

@@ -1,0 +1,31 @@
+{
+  "lighting_angle": 60,
+  "lighting_elevation": 65,
+  "depth_influence": 0,
+  "tiled_normals": true,
+  "soften_edges": 0.5,
+  "fade_to_black": false,
+  "sampler": "square",
+  "accuracy": 5,
+  "overlap": 0,
+  "brightness": -0.05,
+  "contrast": 0.05,
+  "size": {
+    "x": 128,
+    "y": 128,
+    "z": 64
+  },
+  "render_elevation": 30,
+  "sprites": [
+    {
+      "angle": 45,
+      "width": 64,
+      "flip": true
+    },
+    {
+      "angle": 135,
+      "width": 64,
+      "flip": true
+    }
+  ]
+}
