@@ -5,7 +5,7 @@ mkdir -p intermediate
 mkdir -p intermediate/platforms_bare
 mkdir -p intermediate/platforms_objects
 mkdir -p intermediate/platforms
-
+mkdir -p intermediate/bridges
 
 # Basic objects (lamps/shelters)
 # one per platform type
@@ -24,6 +24,9 @@ echo "Compositing platform sprites (base objects)"
 echo "Compositing platform sprites (with crowds)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_objects -t positor/crowds.json
 
+echo "Compositing bridge sprites (with crowds)"
+../cargopositor/cargopositor.exe -o intermediate/bridges -v intermediate/platforms_objects -t positor/crowds_bridge.json
+
 
 # Render sprites
 echo "Rendering platforms"
@@ -31,7 +34,7 @@ echo "Rendering platforms"
 echo ""
 
 echo "Rendering bridges"
-../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u voxels/bridges/*.vox
+../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u intermediate/bridges/*.vox
 echo ""
 
 

@@ -1,0 +1,46 @@
+{
+    "files": [
+      "../../voxels/bridges/footbridge.vox"
+    ],
+    "operations": [
+      {
+        "name": "_0",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_1",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "../../voxels/crowds/bridge_1.vox"
+      }, 
+      {
+        "name": "_2",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "../../voxels/crowds/bridge_2.vox"
+      }, 
+      {
+        "name": "_3",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "../../voxels/crowds/bridge_3.vox"
+      }, 
+      {
+        "name": "_4",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "../../voxels/crowds/bridge_4.vox"
+      }, 
+      {
+        "name": "_5",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "../../voxels/crowds/bridge_5.vox"
+      }
+    ]
+}
