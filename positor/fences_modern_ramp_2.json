@@ -1,0 +1,19 @@
+{
+    "files": [
+      "modern_ramp_sw*.vox"
+    ],
+    "operations": [
+      {
+        "name": "",
+        "type": "produce_empty"
+      },       
+      {
+        "name": "_fence",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "../../voxels/fences/fence_modern_sw.vox"
+      }
+    ]
+}

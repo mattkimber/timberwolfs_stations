@@ -4,8 +4,11 @@
 mkdir -p intermediate
 mkdir -p intermediate/platforms_bare
 mkdir -p intermediate/platforms_objects
+mkdir -p intermediate/platforms_crowds
+mkdir -p intermediate/ramps_crowds
 mkdir -p intermediate/platforms
 mkdir -p intermediate/bridges
+
 
 # Basic objects (lamps/shelters)
 # one per platform type
@@ -19,13 +22,28 @@ echo "Compositing platform sprites (base objects)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects.json
 ../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects_bare.json
 
-
 # Crowds
 echo "Compositing platform sprites (with crowds)"
-../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_objects -t positor/crowds.json
+../cargopositor/cargopositor.exe -o intermediate/platforms_crowds -v intermediate/platforms_objects -t positor/crowds.json
 
 echo "Compositing bridge sprites (with crowds)"
 ../cargopositor/cargopositor.exe -o intermediate/bridges -v intermediate/platforms_objects -t positor/crowds_bridge.json
+
+echo "Compositing ramp sprites (with crowds)"
+../cargopositor/cargopositor.exe -o intermediate/ramps_crowds -v intermediate/platforms_objects -t positor/crowds_ramp.json
+
+# Fences
+echo "Compositing platform sprites (fences)"
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_crowds -t positor/fences_modern.json
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_crowds -t positor/fences_concrete.json
+
+echo "Compositing ramp sprites (fences)"
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_modern_ramp_1.json
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_modern_ramp_2.json
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_1.json
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_2.json
+
+
 
 
 # Render sprites
@@ -35,6 +53,10 @@ echo ""
 
 echo "Rendering bridges"
 ../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u intermediate/bridges/*.vox
+echo ""
+
+echo "Rendering fences"
+../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u voxels/fences/*.vox
 echo ""
 
 

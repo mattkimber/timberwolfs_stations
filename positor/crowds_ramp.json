@@ -1,6 +1,6 @@
 {
     "files": [
-      "*.vox"
+      "../../voxels/platforms/*_ramp_*.vox"
     ],
     "operations": [
       {
