@@ -43,9 +43,6 @@ echo "Compositing ramp sprites (fences)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_1.json
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_2.json
 
-
-
-
 # Render sprites
 echo "Rendering platforms"
 ../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u intermediate/platforms/*.vox
@@ -55,10 +52,9 @@ echo "Rendering bridges"
 ../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u intermediate/bridges/*.vox
 echo ""
 
-echo "Rendering fences"
-../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u voxels/fences/*.vox
+echo "Rendering buildings"
+../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u voxels/buildings/*.vox
 echo ""
-
 
 # Create NFO
 echo "Creating NFO"
