@@ -2,7 +2,7 @@
   "lighting_angle": 60,
   "lighting_elevation": 65,
   "depth_influence": 0,
-  "tiled_normals": true,
+  "tiled_normals": false,
   "soften_edges": 0.5,
   "fade_to_black": false,
   "sampler": "square",
