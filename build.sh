@@ -48,6 +48,10 @@ echo "Rendering platforms"
 ../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u intermediate/platforms/*.vox
 echo ""
 
+echo "Rendering buffer stops"
+../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u voxels/platforms/*bufferstop*.vox
+echo ""
+
 echo "Rendering bridges"
 ../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u intermediate/bridges/*.vox
 echo ""
