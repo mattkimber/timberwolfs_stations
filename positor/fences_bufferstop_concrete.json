@@ -1,0 +1,99 @@
+{
+    "files": [
+      "concrete*.vox"
+    ],
+    "operations": [
+      {
+        "name": "",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_fence_a",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/a.vox"
+      }, 
+      {
+        "name": "_fence_b",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/b.vox"
+      },
+      {
+        "name": "_fence_ab",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/ab.vox"
+      }, 
+      {
+        "name": "_fence_ac",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/ac.vox"
+      }, 
+      {
+        "name": "_fence_bc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/bc.vox"
+      },
+      {
+        "name": "_fence_abc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/abc.vox"
+      }, 
+      {
+        "name": "_fence_c",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/c.vox"
+      },
+      {
+        "name": "_fence_ad",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/ad.vox"
+      }, 
+      {
+        "name": "_fence_bd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/bd.vox"
+      },
+      {
+        "name": "_fence_abd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/abd.vox"
+      }, 
+      {
+        "name": "_fence_d",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/d.vox"
+      }
+    ]
+}

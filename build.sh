@@ -8,6 +8,7 @@ mkdir -p intermediate/platforms_crowds
 mkdir -p intermediate/ramps_crowds
 mkdir -p intermediate/platforms
 mkdir -p intermediate/bridges
+mkdir -p intermediate/bufferstops
 
 
 # Basic objects (lamps/shelters)
@@ -43,13 +44,18 @@ echo "Compositing ramp sprites (fences)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_1.json
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_2.json
 
+# Buffers stops
+echo "Compositing buffer stops (fences)"
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_concrete.json
+
+
 # Render sprites
 echo "Rendering platforms"
 ../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u intermediate/platforms/*.vox
 echo ""
 
 echo "Rendering buffer stops"
-../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u voxels/platforms/*bufferstop*.vox
+../gorender/renderobject.exe -m files/manifest_bufferstop.json -p -8 -s 1,2 -r -u intermediate/bufferstops/*.vox
 echo ""
 
 echo "Rendering bridges"
