@@ -44,9 +44,15 @@ echo "Compositing ramp sprites (fences)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_1.json
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/ramps_crowds -t positor/fences_concrete_ramp_2.json
 
+# Roofed platforms
+echo "Compositing roof supports"
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_crowds -t positor/roof_supports.json
+
+
 # Buffers stops
 echo "Compositing buffer stops (fences)"
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_concrete.json
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_modern.json
 
 
 # Render sprites
@@ -60,6 +66,10 @@ echo ""
 
 echo "Rendering bridges"
 ../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u intermediate/bridges/*.vox
+echo ""
+
+echo "Rendering roofs"
+../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u voxels/roofs/roof*.vox
 echo ""
 
 echo "Rendering buildings"

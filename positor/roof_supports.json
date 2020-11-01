@@ -1,0 +1,16 @@
+{
+    "files": [
+      "concrete_empty*.vox",
+      "modern_empty*.vox"
+    ],
+    "operations": [
+      {
+        "name": "_roof",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "../../voxels/roofs/support.vox"
+      }
+    ]
+}

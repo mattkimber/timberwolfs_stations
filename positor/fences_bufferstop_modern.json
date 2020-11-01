@@ -1,0 +1,99 @@
+{
+    "files": [
+      "modern*.vox"
+    ],
+    "operations": [
+      {
+        "name": "",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_fence_a",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/a.vox"
+      }, 
+      {
+        "name": "_fence_b",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/b.vox"
+      },
+      {
+        "name": "_fence_ab",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/ab.vox"
+      }, 
+      {
+        "name": "_fence_ac",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/ac.vox"
+      }, 
+      {
+        "name": "_fence_bc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/bc.vox"
+      },
+      {
+        "name": "_fence_abc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/abc.vox"
+      }, 
+      {
+        "name": "_fence_c",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/c.vox"
+      },
+      {
+        "name": "_fence_ad",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/ad.vox"
+      }, 
+      {
+        "name": "_fence_bd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/bd.vox"
+      },
+      {
+        "name": "_fence_abd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/abd.vox"
+      }, 
+      {
+        "name": "_fence_d",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/d.vox"
+      }
+    ]
+}
