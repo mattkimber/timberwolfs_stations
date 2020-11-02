@@ -76,6 +76,11 @@ echo "Rendering buildings"
 ../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u voxels/buildings/*.vox
 echo ""
 
+echo "Rendering waypoints"
+../gorender/renderobject.exe -m files/manifest_waypoint.json -p -8 -s 1,2 -r -u voxels/waypoints/*.vox
+echo ""
+
+
 # Create NFO
 echo "Creating NFO"
 ../stationer/stationer.exe > test.nfo
