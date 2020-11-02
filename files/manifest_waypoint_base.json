@@ -13,7 +13,7 @@
   "size": {
     "x": 128,
     "y": 128,
-    "z": 64
+    "z": 8
   },
   "render_elevation": 30,
   "sprites": [

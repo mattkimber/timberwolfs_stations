@@ -78,6 +78,7 @@ echo ""
 
 echo "Rendering waypoints"
 ../gorender/renderobject.exe -m files/manifest_waypoint.json -p -8 -s 1,2 -r -u voxels/waypoints/*.vox
+../gorender/renderobject.exe -m files/manifest_waypoint_base.json -p -8 -s 1,2 -r -u voxels/waypoints/base/*.vox
 echo ""
 
 
