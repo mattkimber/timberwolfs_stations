@@ -1,7 +1,8 @@
 {
     "files": [
       "concrete_bare.vox",
-      "modern_bare.vox"
+      "modern_bare.vox",
+      "wooden_bare.vox"
     ],
     "operations": [
       {

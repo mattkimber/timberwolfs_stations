@@ -1,6 +1,7 @@
 {
     "files": [
-      "platforms/concrete.vox"
+      "platforms/concrete.vox",
+      "platforms/wooden.vox"
     ],
     "operations": [
       {

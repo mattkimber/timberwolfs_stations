@@ -1,7 +1,8 @@
 {
     "files": [
       "concrete.vox",
-      "modern.vox"
+      "modern.vox",
+      "wooden.vox"
     ],
     "operations": [
       {

@@ -1,6 +1,7 @@
 {
     "files": [
-      "concrete_ramp_ne*.vox"
+      "concrete_ramp_ne*.vox",
+      "wooden_ramp_ne*.vox"
     ],
     "operations": [
       {
