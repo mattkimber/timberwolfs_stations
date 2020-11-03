@@ -94,6 +94,38 @@
         "ignore_mask": true,
         "overwrite": true,
         "file": "fences/modern/d.vox"
+      },
+      {
+        "name": "_fence_acd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/acd.vox"
+      },
+      {
+        "name": "_fence_bcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/bcd.vox"
+      },
+      {
+        "name": "_fence_cd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/cd.vox"
+      },
+      {
+        "name": "_fence_abcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/modern/abcd.vox"
       }
     ]
 }

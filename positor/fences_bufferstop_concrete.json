@@ -95,6 +95,38 @@
         "ignore_mask": true,
         "overwrite": true,
         "file": "fences/concrete/d.vox"
+      },
+      {
+        "name": "_fence_acd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/acd.vox"
+      },
+      {
+        "name": "_fence_bcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/bcd.vox"
+      },
+      {
+        "name": "_fence_cd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/cd.vox"
+      },
+      {
+        "name": "_fence_abcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/concrete/abcd.vox"
       }
     ]
 }
