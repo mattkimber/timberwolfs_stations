@@ -84,7 +84,14 @@ echo ""
 
 # Create NFO
 echo "Creating NFO"
-../stationer/stationer.exe > test.nfo
+../stationer/stationer.exe > timberwolfs_stations.nfo
 
 # Compile GRF
-../grfcodec/grfcodec.exe -g 2 -e test.nfo .
+../grfcodec/grfcodec.exe -g 2 -e timberwolfs_stations.nfo .
+
+# Build TAR
+echo "Building TAR"
+mkdir -p timberwolfs_stations
+mv *.grf timberwolfs_stations
+cp grf_readme/* timberwolfs_stations
+tar -c timberwolfs_stations > timberwolfs_stations.tar
