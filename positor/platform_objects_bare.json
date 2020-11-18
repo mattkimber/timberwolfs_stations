@@ -25,6 +25,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/objects/cafe.vox"
+      },
+      {
+        "name": "_planter",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/planter.vox"
       }
     ]
 }
