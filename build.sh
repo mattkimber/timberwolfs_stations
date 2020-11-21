@@ -5,6 +5,7 @@ mkdir -p intermediate
 mkdir -p intermediate/platforms_bare
 mkdir -p intermediate/platforms_objects
 mkdir -p intermediate/platforms_crowds
+mkdir -p intermediate/platforms_billboards
 mkdir -p intermediate/ramps_crowds
 mkdir -p intermediate/platforms
 mkdir -p intermediate/bridges
@@ -23,6 +24,12 @@ echo "Compositing platform sprites (base objects)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects.json
 ../cargopositor/cargopositor.exe -o intermediate/platforms_objects -v intermediate/platforms_bare -t positor/platform_objects_bare.json
 
+# Billboards
+echo "Compositing platform sprites (base objects)"
+../cargopositor/cargopositor.exe -o intermediate/platforms_billboards -v intermediate/platforms_bare -t positor/billboards_wooden.json
+../cargopositor/cargopositor.exe -o intermediate/platforms_billboards -v intermediate/platforms_bare -t positor/billboards_modern.json
+../cargopositor/cargopositor.exe -o intermediate/platforms_billboards -v intermediate/platforms_bare -t positor/billboards_concrete.json
+
 # Crowds
 echo "Compositing platform sprites (with crowds)"
 ../cargopositor/cargopositor.exe -o intermediate/platforms_crowds -v intermediate/platforms_objects -t positor/crowds.json
@@ -32,6 +39,10 @@ echo "Compositing bridge sprites (with crowds)"
 
 echo "Compositing ramp sprites (with crowds)"
 ../cargopositor/cargopositor.exe -o intermediate/ramps_crowds -v intermediate/platforms_objects -t positor/crowds_ramp.json
+
+echo "Compositing billboard sprites (with crowds)"
+../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_billboards -t positor/crowds.json
+
 
 # Fences
 echo "Compositing platform sprites (fences)"
@@ -72,9 +83,11 @@ echo "Rendering roofs"
 ../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u voxels/roofs/roof*.vox
 echo ""
 
+
 echo "Rendering buildings"
 ../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u voxels/buildings/*.vox
 echo ""
+
 
 echo "Rendering waypoints"
 ../gorender/renderobject.exe -m files/manifest_waypoint.json -p -8 -s 1,2 -r -u voxels/waypoints/*.vox

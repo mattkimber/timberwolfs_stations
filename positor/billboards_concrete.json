@@ -1,0 +1,63 @@
+{
+    "files": [
+      "concrete.vox"
+    ],
+    "operations": [
+      {
+        "name": "_billboard_1",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/1.vox"
+      }, 
+      {
+        "name": "_billboard_1_flip",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/1_flip.vox"
+      },      
+      {
+        "name": "_billboard_2",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/2.vox"
+      }, 
+      {
+        "name": "_billboard_2_flip",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/2_flip.vox"
+      },      
+      {
+        "name": "_billboard_3",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/3.vox"
+      }, 
+      {
+        "name": "_billboard_3_flip",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/3_flip.vox"
+      },      
+      {
+        "name": "_billboard_4",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/4.vox"
+      }, 
+      {
+        "name": "_billboard_4_flip",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/billboards/concrete/4_flip.vox"
+      }
+    ]
+}
