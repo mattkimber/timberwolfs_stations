@@ -1,0 +1,16 @@
+{
+    "files": [
+      "concrete_bare.vox",
+      "modern_bare.vox",
+      "wooden_bare.vox"
+    ],
+    "operations": [
+      {
+        "name": "_shelter_tiled_wall",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/shelter_tiled_wall.vox"
+      }
+    ]
+}
