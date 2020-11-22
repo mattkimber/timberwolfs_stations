@@ -11,6 +11,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/objects/shelter_traditional.vox"
+      },      
+      {
+        "name": "_shelter_glass",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/shelter_glass.vox"
       }, 
       {
         "name": "_footbridge",
