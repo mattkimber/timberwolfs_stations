@@ -87,6 +87,7 @@ echo ""
 
 echo "Rendering bridges"
 ../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u intermediate/bridges/*.vox
+../gorender/renderobject.exe -m files/manifest_object.json -p -8 -s 1,2 -r -u voxels/bridges/*covered*.vox
 echo ""
 
 echo "Rendering roofs"

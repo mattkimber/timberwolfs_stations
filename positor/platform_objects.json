@@ -25,6 +25,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/objects/benches.vox"
+      }, 
+      {
+        "name": "_underpass",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/underpass.vox"
       }
     ]
 }

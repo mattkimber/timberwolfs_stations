@@ -27,6 +27,20 @@
         "file": "../../voxels/objects/footbridge_stairs.vox"
       },
       {
+        "name": "_footbridge_covered",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/footbridge_stairs_covered.vox"
+      },
+      {
+        "name": "_footbridge_covered_brick",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/footbridge_stairs_covered_brick.vox"
+      },
+      {
         "name": "_cafe",
         "type": "repeat",
         "truncate": true,
