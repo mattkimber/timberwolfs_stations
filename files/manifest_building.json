@@ -27,6 +27,16 @@
       "angle": 135,
       "width": 64,
       "flip": true
+    },    
+	{
+      "angle": 225,
+      "width": 64,
+      "flip": true
+    },
+    {
+      "angle": 315,
+      "width": 64,
+      "flip": true
     }
   ]
 }
