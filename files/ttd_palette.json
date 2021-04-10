@@ -185,12 +185,12 @@
     {
       "_comment": "water cycle",
       "start": 245,
-      "end": 252,
+      "end": 251,
       "is_animated_light": true
     },
     {
       "_comment": "transparent voxels",
-      "start": 253,
+      "start": 252,
       "end": 255,
       "non_renderable": true
     }

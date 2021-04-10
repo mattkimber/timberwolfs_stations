@@ -1,0 +1,34 @@
+{
+    "files": [
+      "straight_car_park.vox",      
+      "entrance_car_park.vox",      
+      "end_car_park.vox"
+    ],
+    "operations": [
+      {
+        "name": "_0",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_1",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "cars/cars_1.vox"
+      }, 
+      {
+        "name": "_2",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "cars/cars_2.vox"
+      }, 
+      {
+        "name": "_3",
+        "type": "repeat",
+        "truncate": true,
+        "n": 0,        
+        "file": "cars/cars_3.vox"
+      }
+    ]
+}

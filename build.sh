@@ -14,6 +14,8 @@ mkdir -p intermediate/bufferstops
 mkdir -p intermediate/tiled_wall_shelter
 mkdir -p intermediate/tiled_wall_shelter_crowds
 
+mkdir -p intermediate/car_parks
+
 
 # Basic objects (lamps/shelters)
 # one per platform type
@@ -75,6 +77,11 @@ echo "Compositing buffer stops (fences)"
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_concrete.json
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_modern.json
 
+# Car parks
+echo "Compositing car park sprites"
+../cargopositor/cargopositor.exe -o intermediate/car_parks -v voxels/car_parks -t positor/car_parks.json
+../cargopositor/cargopositor.exe -o intermediate/car_parks -v voxels/car_parks -t positor/corner_car_park.json
+
 
 # Render sprites
 echo "Rendering platforms"
@@ -99,6 +106,10 @@ echo ""
 
 echo "Rendering buildings"
 ../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u voxels/buildings/*.vox
+echo ""
+
+echo "Rendering car parks"
+../gorender/renderobject.exe -m files/manifest_building.json -p -8 -s 1,2 -r -u intermediate/car_parks/*.vox
 echo ""
 
 

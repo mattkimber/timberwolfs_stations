@@ -11,7 +11,7 @@
   "overlap": 0,
   "brightness": -0.05,
   "contrast": 0.05,
-  "joggle": -0.75,
+  "joggle": -0.5,
   "detail_boost": 15.0,
   "falloff_adjustment": 0.25,
   "size": {
