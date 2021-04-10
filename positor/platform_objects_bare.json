@@ -20,6 +20,13 @@
         "file": "../../voxels/objects/shelter_glass.vox"
       }, 
       {
+        "name": "_shelter_curved",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/shelter_curved.vox"
+      },  
+      {
         "name": "_footbridge",
         "type": "repeat",
         "truncate": true,
