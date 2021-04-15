@@ -118,7 +118,9 @@ echo "Rendering waypoints"
 ../gorender/renderobject.exe -m files/manifest_waypoint_base.json -p -8 -s 1,2 -r -u voxels/waypoints/base/*.vox
 echo ""
 
-
+echo "Rendering standalone fences"
+../gorender/renderobject.exe -m files/manifest_platform.json -p -8 -s 1,2 -r -u voxels/rail_fences/*.vox
+echo ""
 
 # Create NFO
 echo "Creating NFO"
