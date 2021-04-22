@@ -71,11 +71,34 @@ echo "Compositing tiled wall shelter"
 echo "Compositing roof supports"
 ../cargopositor/cargopositor.exe -o intermediate/platforms -v intermediate/platforms_crowds -t positor/roof_supports.json
 
+# Bufferstop fences
+echo "Compositing buffer stop fences"
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_concrete -v voxels/bufferstops/fences/outer_concrete -t positor/fences_1.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_concrete -v voxels/bufferstops/fences/outer_concrete -t positor/fences_2.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_concrete -v voxels/bufferstops/fences/outer_concrete -t positor/fences_3.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_concrete -v voxels/bufferstops/fences/inner_concrete -t positor/fences_1.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_concrete -v voxels/bufferstops/fences/inner_concrete -t positor/fences_2.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_concrete -v voxels/bufferstops/fences/inner_concrete -t positor/fences_3.json
+
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_modern -v voxels/bufferstops/fences/outer_modern -t positor/fences_1.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_modern -v voxels/bufferstops/fences/outer_modern -t positor/fences_2.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_modern -v voxels/bufferstops/fences/outer_modern -t positor/fences_3.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_modern -v voxels/bufferstops/fences/inner_modern -t positor/fences_1.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_modern -v voxels/bufferstops/fences/inner_modern -t positor/fences_2.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_modern -v voxels/bufferstops/fences/inner_modern -t positor/fences_3.json
+
 
 # Buffers stops
-echo "Compositing buffer stops (fences)"
+echo "Compositing buffer stops (with fences)"
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_concrete.json
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_bufferstop_modern.json
+
+
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_outer_bufferstop_concrete.json
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_inner_bufferstop_concrete.json
+
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_outer_bufferstop_modern.json
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_inner_bufferstop_modern.json
 
 # Car parks
 echo "Compositing car park sprites"

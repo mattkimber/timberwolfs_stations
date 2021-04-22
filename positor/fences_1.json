@@ -1,0 +1,31 @@
+{
+    "files": [
+      "a.vox"
+    ],
+    "operations": [
+      {
+        "name": "b",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "b.vox"
+      }, 
+      {
+        "name": "c",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "c.vox"
+      },
+      {
+        "name": "d",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "d.vox"
+      }
+    ]
+}

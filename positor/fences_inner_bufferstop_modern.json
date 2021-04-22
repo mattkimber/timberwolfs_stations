@@ -1,0 +1,131 @@
+{
+    "files": [
+      "inner_modern*.vox"
+    ],
+    "operations": [
+      {
+        "name": "",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_fence_a",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/a.vox"
+      }, 
+      {
+        "name": "_fence_b",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/b.vox"
+      },
+      {
+        "name": "_fence_ab",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/ab.vox"
+      }, 
+      {
+        "name": "_fence_ac",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/ac.vox"
+      }, 
+      {
+        "name": "_fence_bc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/bc.vox"
+      },
+      {
+        "name": "_fence_abc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/abc.vox"
+      }, 
+      {
+        "name": "_fence_c",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/c.vox"
+      },
+      {
+        "name": "_fence_ad",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/ad.vox"
+      }, 
+      {
+        "name": "_fence_bd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/bd.vox"
+      },
+      {
+        "name": "_fence_abd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/abd.vox"
+      }, 
+      {
+        "name": "_fence_d",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/d.vox"
+      },
+      {
+        "name": "_fence_acd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/acd.vox"
+      },
+      {
+        "name": "_fence_bcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/bcd.vox"
+      },
+      {
+        "name": "_fence_cd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/cd.vox"
+      },
+      {
+        "name": "_fence_abcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_modern/abcd.vox"
+      }
+    ]
+}
