@@ -87,6 +87,13 @@ echo "Compositing buffer stop fences"
 ../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_modern -v voxels/bufferstops/fences/inner_modern -t positor/fences_2.json
 ../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_modern -v voxels/bufferstops/fences/inner_modern -t positor/fences_3.json
 
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_wooden -v voxels/bufferstops/fences/outer_wooden -t positor/fences_1.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_wooden -v voxels/bufferstops/fences/outer_wooden -t positor/fences_2.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/outer_wooden -v voxels/bufferstops/fences/outer_wooden -t positor/fences_3.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_wooden -v voxels/bufferstops/fences/inner_wooden -t positor/fences_1.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_wooden -v voxels/bufferstops/fences/inner_wooden -t positor/fences_2.json
+../cargopositor/cargopositor.exe -o voxels/bufferstops/fences/inner_wooden -v voxels/bufferstops/fences/inner_wooden -t positor/fences_3.json
+
 
 # Buffers stops
 echo "Compositing buffer stops (with fences)"
@@ -100,6 +107,10 @@ echo "Compositing buffer stops (with fences)"
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_outer_bufferstop_modern.json
 ../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_inner_bufferstop_modern.json
 
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_outer_bufferstop_wooden.json
+../cargopositor/cargopositor.exe -o intermediate/bufferstops -v voxels/bufferstops -t positor/fences_inner_bufferstop_wooden.json
+
+
 # Car parks
 echo "Compositing car park sprites"
 ../cargopositor/cargopositor.exe -o intermediate/car_parks -v voxels/car_parks -t positor/car_parks.json
@@ -112,7 +123,7 @@ ls intermediate/platforms/*.vox | xargs ../gorender/renderobject.exe -m files/ma
 echo ""
 
 echo "Rendering buffer stops"
-../gorender/renderobject.exe -m files/manifest_bufferstop.json -p -8 -s 1,2 -r -u intermediate/bufferstops/*.vox
+ls intermediate/bufferstops/*.vox | xargs ../gorender/renderobject.exe -m files/manifest_bufferstop.json -p -8 -s 1,2 -r -u 
 echo ""
 
 echo "Rendering bridges"

@@ -1,0 +1,131 @@
+{
+    "files": [
+      "inner_wooden*.vox"
+    ],
+    "operations": [
+      {
+        "name": "",
+        "type": "produce_empty"
+      }, 
+      {
+        "name": "_fence_a",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/a.vox"
+      }, 
+      {
+        "name": "_fence_b",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/b.vox"
+      },
+      {
+        "name": "_fence_ab",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/ab.vox"
+      }, 
+      {
+        "name": "_fence_ac",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/ac.vox"
+      }, 
+      {
+        "name": "_fence_bc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/bc.vox"
+      },
+      {
+        "name": "_fence_abc",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/abc.vox"
+      }, 
+      {
+        "name": "_fence_c",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/c.vox"
+      },
+      {
+        "name": "_fence_ad",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/ad.vox"
+      }, 
+      {
+        "name": "_fence_bd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/bd.vox"
+      },
+      {
+        "name": "_fence_abd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/abd.vox"
+      }, 
+      {
+        "name": "_fence_d",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/d.vox"
+      },
+      {
+        "name": "_fence_acd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/acd.vox"
+      },
+      {
+        "name": "_fence_bcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/bcd.vox"
+      },
+      {
+        "name": "_fence_cd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/cd.vox"
+      },
+      {
+        "name": "_fence_abcd",
+        "type": "repeat",
+        "n": 1,
+        "ignore_mask": true,
+        "overwrite": true,
+        "file": "fences/inner_wooden/abcd.vox"
+      }
+    ]
+}
