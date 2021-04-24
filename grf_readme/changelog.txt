@@ -1,3 +1,8 @@
+v1.2.1
+------
+
+- Better fence handling for cafe and planter
+
 v1.2.0
 ------
 
@@ -9,4 +14,5 @@ v1.2.0
 v1.0.0
 ------
 
-- Initial release with multiple platform types and a small selection of waypoints and buildings.
+- Initial release with multiple platform types and a small 
+  selection of waypoints and buildings.
