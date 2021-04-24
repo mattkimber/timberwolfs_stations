@@ -4,6 +4,7 @@ v1.2.0
 - Many new buildings and station tiles
 - Fences for single-sided platforms
 - More logical ordering of station tiles
+- Station size affects passengers per platform tile
 
 v1.0.0
 ------
