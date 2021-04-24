@@ -37,7 +37,8 @@ in several sections of different length.
 A couple of decorative concourses are also offered,
 these can be used to link platforms or extend a station.
 As you build a concourse the fences around the edge
-will automatically adapt.
+will automatically adapt. Stations can also be extended 
+using buildings, car parks and amenities such as shops.
 
 Buffer stops are also configured automatically.
 When you place a buffer stop, it will have track 

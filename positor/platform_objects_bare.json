@@ -67,6 +67,13 @@
         "truncate": true,
         "n": 1,        
         "file": "../../voxels/objects/hut.vox"
+      },  
+      {
+        "name": "_stairs",
+        "type": "repeat",
+        "truncate": true,
+        "n": 1,        
+        "file": "../../voxels/objects/stairs.vox"
       }
     ]
 }
