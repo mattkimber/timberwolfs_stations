@@ -1,3 +1,8 @@
+v1.2.2
+------
+
+- Better compatibility of buildings placed in town centres
+
 v1.2.1
 ------
 
