@@ -2,6 +2,7 @@
   "lighting_angle": 60,
   "lighting_elevation": 65,
   "depth_influence": 0,
+  "hard_edge_threshold": 0.25,
   "tiled_normals": false,
   "solid_base": true,
   "soften_edges": 0.5,
@@ -11,7 +12,7 @@
   "overlap": 0,
   "brightness": -0.05,
   "contrast": 0.05,
-  "joggle": 0.25,
+  "joggle": 0,
   "detail_boost": 15.0,
   "falloff_adjustment": 0.25,
   "size": {

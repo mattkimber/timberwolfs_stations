@@ -2,6 +2,7 @@
   "lighting_angle": 60,
   "lighting_elevation": 65,
   "depth_influence": 0,
+  "hard_edge_threshold": 0.25,
   "tiled_normals": true,
   "solid_base": true,
   "soften_edges": 0.5,
