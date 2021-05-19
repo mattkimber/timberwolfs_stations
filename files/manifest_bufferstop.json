@@ -12,9 +12,11 @@
   "overlap": 0,
   "brightness": -0.05,
   "contrast": 0.05,
-  "joggle": -0.5,
+  "joggle": -0.6,
   "detail_boost": 15.0,
   "falloff_adjustment": 0.25,
+  "max_colour_push": 0,
+  "suppress_edge_fosterisation": true,
   "size": {
     "x": 128,
     "y": 128,

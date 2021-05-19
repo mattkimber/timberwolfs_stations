@@ -7,7 +7,9 @@
       "_comment": "flat greys",
       "start": 1,
       "end": 15,
-      "smoothness": -1
+      "smoothness": 1,
+	  "max_gap_in_region": 3,
+	  "expected_colour_range": 3
     },
     {
       "_comment": "blue greys",
@@ -18,12 +20,15 @@
     {
       "_comment": "olive greens",
       "start": 24,
-      "end": 31
+      "end": 31,
+	  "expected_colour_range": 2
     },
     {
       "_comment": "golden browns",
       "start": 32,
-      "end": 39
+      "end": 39,
+	  "max_gap_in_region": -1,
+	  "expected_colour_range": 1
     },
     {
       "_comment": "maroons",
@@ -66,7 +71,9 @@
       "_comment": "company colour 2",
       "start": 80,
       "end": 87,
-      "is_secondary_company_colour": true
+      "is_secondary_company_colour": true,
+	  "max_gap_in_region": 8,
+	  "expected_colour_range": 5
     },
     {
       "_comment": "forest greens",
@@ -139,7 +146,9 @@
       "_comment": "company colour 1",
       "start": 198,
       "end": 205,
-      "is_primary_company_colour": true
+      "is_primary_company_colour": true,
+	  "max_gap_in_region": 8,
+	  "expected_colour_range": 5
     },
     {
       "_comment": "sage greens",

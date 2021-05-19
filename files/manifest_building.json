@@ -15,6 +15,9 @@
   "joggle": 0,
   "detail_boost": 15.0,
   "falloff_adjustment": 0.25,
+  "max_colour_push": 0,
+  "fosterise": true,
+  "suppress_edge_fosterisation": true,
   "size": {
     "x": 128,
     "y": 128,
