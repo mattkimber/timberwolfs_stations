@@ -1,3 +1,9 @@
+v1.2.4
+------
+
+Improve alignment of wooden station building
+Fix grass showing between track ballast and platforms
+
 v1.2.3
 ------
 

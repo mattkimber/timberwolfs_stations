@@ -12,7 +12,6 @@
   "overlap": 0,
   "brightness": -0.05,
   "contrast": 0.05,
-  "joggle": -0.6,
   "detail_boost": 15.0,
   "falloff_adjustment": 0.25,
   "max_colour_push": 0,
@@ -26,12 +25,14 @@
   "sprites": [
     {
       "angle": 225,
-      "width": 64
+      "width": 64,
+      "joggle": -1.25
     },
     {
       "angle": 135,
       "width": 64,
-      "flip": true
+      "flip": true,
+      "joggle": -0.25
     }
   ]
 }
